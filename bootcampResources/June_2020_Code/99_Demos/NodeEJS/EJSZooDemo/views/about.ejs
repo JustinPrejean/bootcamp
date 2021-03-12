@@ -1,0 +1,10 @@
+<%- include('partials/header') %> 
+
+<%- include('partials/navbar') %>
+
+    <h1>Learn more about our animals:</h1>
+    <% zoo.forEach(function(animal){ %>
+        <p><%= animal.name%> is a(n) <%= animal.size%> <%= animal.breed%> from <%= animal.country%></p>
+    <% }) %> 
+
+<%- include('partials/footer') %>

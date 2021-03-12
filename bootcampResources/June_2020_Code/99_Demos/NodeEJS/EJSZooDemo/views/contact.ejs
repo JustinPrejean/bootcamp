@@ -1,0 +1,10 @@
+<%- include('partials/header') %> 
+
+<%- include('partials/navbar') %>
+
+    <h1>Contact the following owners for more info:</h1>
+    <% zoo.forEach(function(animal){ %>
+        <p><%= animal.name %>: <%= animal.owner.fname%> <%= animal.owner.lname%> &nbsp;&nbsp;<b>phone: <%= animal.owner.phone %></b></p>
+    <% }) %> 
+
+<%- include('partials/footer') %>

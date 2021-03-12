@@ -1,0 +1,12 @@
+<%- include('partials/header') %>
+
+<%- include('partials/navbar') %>
+    
+    <h1>Welcome to the ZOO</h1>
+    <p>The following animals are in the zoo:</p>
+    <% zoo.forEach(function(animal){ %>
+      <h3><%= animal.breed%></h3>
+    <% }) %>
+    
+<%- include('partials/footer') %>
+    

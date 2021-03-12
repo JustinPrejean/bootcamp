@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Hotel Reservations</title>
+<meta charset="utf-8">
+</head>
+<body>
+  <h1>Hotel Room Service</h1>
+  <h3>Welcome to our hotel! We hope you enjoy your stay</h3>
+  <p>We value you as our guest! Use this online form to have a hot, delicious breakfast delivered to your room.
+    Please fill out this form before midnight so that we can make proper accomodations. All meals are served
+    before 10AM. Tipping is encouraged.
+  </p>
+  <!--Piyush: This should be form element.-->
+  <!--JM - 4/6/18 - revised forms to form-->
+  <form>
+    <fieldset>
+      <legend>Hotel Guest Contact Info</legend>
+      <!--Piyush: better to wrap this in a label element.  So also the -->
+      <!--later texts:-->
+      <!--JM - 4/6/18 - added label elements-->
+      <label for="fName">First name:</label>
+      <input type="text" name="fName">
+      <br><label for="lname">Last name:</label>
+      <input type="text" name="lName">
+      <br><label for="roomNum">Room number:</label>
+      <input type="text" name="roomNum">
+    </fieldset>
+
+    <label for="timeSelect"><br>What time would you like to be served?</label>
+    <select id="timeSelect" name="serveTime">
+      <option value="6">6AM</option>
+      <option value="7">7AM</option>
+      <option value="8">8AM</option>
+      <option value="9">9AM</option>
+      <option value="10">10AM</option>
+    </select>
+
+    <br><br>Please choose your entree:<br><br>
+    <select id="entree" name="entree" size="5">
+      <option value="waffles">Waffles and chicken</option>
+      <option value="pancakes">Pancakes and syrup</option>
+      <option value="hash">Hash browns</option>
+      <option value="bacon">Bacon & Eggs</option>
+      <option value="toast">Boring ol' toast</option>
+    </select>
+
+    <br><br>Would you like extra butter?<br><br>
+    <!--Piyush: these input elements should have the value attribute.-->
+      <!--This is never shown on the client, but is passed to the server-->
+      <!--when the form is submitted.  Hence required.-->
+
+      <!--JM - 4/6/18 - values added to check inputs-->
+    <input type="checkbox" name="butterYes"  value="true" checked>
+    <label for="butterYes">Yes</label>
+
+    <input type="checkbox" name="butterNo" value="false">
+    <label for="butterNo">No</label>
+
+    <input type="checkbox" name="butterSurprise" value="true">
+    <label for="butterSurprise">Surprise me</label>
+
+    <br><br><input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>

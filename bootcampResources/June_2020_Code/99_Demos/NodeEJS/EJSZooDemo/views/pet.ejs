@@ -1,0 +1,12 @@
+<%- include('partials/header') %> 
+
+<%- include('partials/navbar') %>
+
+    <h1>Are our animals pet friendly:</h1>
+    <% zoo.forEach(function(animal){ %>
+        <p><%= animal.name%> is a(n)
+            <% let isPetFriendly = !animal.isPet ? 'not' : ''%>
+        <%= animal.breed%> from <%= animal.country%> and is <%= isPetFriendly%> pet-friendly</p>
+    <% }) %> 
+
+<%- include('partials/footer') %>

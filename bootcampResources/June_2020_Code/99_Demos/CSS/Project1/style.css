@@ -1,0 +1,30 @@
+  
+#buttons {
+    text-align: center;
+}
+
+
+.button {
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 25px 100px;
+    border: none;
+}
+
+#blue {
+    background-color: #0d47a1;
+}
+
+#red {
+    background-color: #fa4336;
+}
+
+#green {
+    background-color: #4caf50;
+}
+
+#yellow {
+    background-color: #ffeb3b;
+}
