@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  background: #ccc;
+}
+
+a {
+  color: rgb(19, 19, 19);
+  text-decoration: none;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar li {
+  float: left;
+  width: 17%;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #111;
+}
+
+.login {
+  /* height: 100vh;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden; */
+}
+
+.preview {
+  width: 61%;
+  left: 0;
+  border-right: 1px solid black;
+  background-image: URL("https://cdn.pocket-lint.com/r/s/1200x630/assets/images/148766-smart-home-review-echo-wall-clock-image1-yhik6caxgz.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.userLogin {
+  width: 39%;
+  right: 0;
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.userLogin .loginCard {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid rgb(100, 99, 99);
+  background-color: #eee;
+  height: 40%;
+  width: 49%;
+}
+
+.loginCard input,
+.loginCard h2,
+.loginCard button {
+  margin-bottom: 12px;
+  margin-left: 20px;
+  padding: 8px 12px;
+  width: 80%;
+  text-align: center;
+}
+
+.loginCard label {
+  margin-left: 23px;
+  font-size: 0.8rem;
+}
+.loginCard button {
+  margin-top: 10px;
+  font-size: 1.3rem;
+}
