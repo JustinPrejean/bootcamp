@@ -1,0 +1,24 @@
+#blue {
+  background: #0d47a1;
+}
+
+#red {
+  background-color: #f44336;
+}
+
+#green {
+  background: #4caf50;
+}
+
+#yellow {
+  background: #ffeb3b;
+}
+
+button {
+  size: 50px;
+  color: white;
+  border-radius: 10px;
+  padding: 20px 50px;
+  font-weight: 700;
+  border: none;
+}

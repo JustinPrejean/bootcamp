@@ -1,0 +1,212 @@
+.navbar-brand {
+  font-size: 1.8rem;
+}
+
+.fa-coffee {
+  color: rgb(248, 135, 7);
+}
+
+.navbar a {
+  font-weight: 500;
+}
+
+h1 {
+  color: white;
+  -webkit-text-stroke: 2px black;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding-top: 300px;
+}
+
+.landing {
+  background: url("https://images.unsplash.com/photo-1473873446975-123c5143248b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.landing h1 {
+  font-size: 55px;
+  font-weight: 700;
+  width: 700px;
+  padding-bottom: 5px;
+}
+.about {
+  background: url("https://skygarden.london/wp-content/uploads/2019/10/Rhubarb-at-Sky-Garden-High-Resolution81-scaled-e1581339527774-3840x1902.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 55px;
+  font-weight: 700;
+  width: 800px;
+  padding-bottom: 5px;
+}
+
+.contact {
+  background: url("https://images.unsplash.com/photo-1480563597043-1c877e682fc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 55px;
+  font-weight: 700;
+  width: 900px;
+  padding-bottom: 5px;
+}
+
+.form {
+  height: 70vh;
+}
+
+.form .row {
+  margin-top: 150px;
+}
+
+form {
+  float: right;
+}
+
+.form .text {
+  width: 55%;
+}
+
+.form .text h2 {
+  font-size: 30px;
+}
+
+.form .text h3 {
+  font-size: 20px;
+}
+
+.form .text p {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.form label {
+  margin-bottom: 7px;
+}
+
+.form input[type="text"],
+.form input[type="email"] {
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+.form textarea {
+  margin-bottom: 10px;
+}
+
+form p {
+  color: grey;
+  font-size: 12px;
+}
+
+.form input[type="checkbox"] {
+  margin: 20px 0px 15px 0px;
+}
+
+.section1,
+.section3 {
+  width: 100%;
+  height: 650px;
+}
+
+.section1 .image,
+.section3 .image {
+  float: right;
+  padding: 150px 30px 0px 0px;
+}
+
+.section1 .text,
+.section3 .text {
+  width: 53%;
+  padding: 150px 0px 0px 60px;
+}
+
+.section2 {
+  width: 100%;
+  height: 650px;
+  background-color: #26283b;
+}
+
+.section2 .image {
+  float: left;
+  padding: 150px 0px 0px 60px;
+}
+
+.section2 .text {
+  width: 53%;
+  padding: 150px 30px 0px 0px;
+  float: right;
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.image img {
+  height: 300px;
+  width: 500px;
+}
+
+.text h2 {
+  font-size: 18px;
+}
+
+.text h3 {
+  font-size: 32px;
+  font-weight: 640;
+}
+
+.text p {
+  font-size: 18px;
+}
+
+.text caption {
+  font-size: 14px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 30px;
+  background: #26283b;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.foot-logo {
+  width: 50%;
+  text-align: center;
+}
+.foot-links {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
+
+.footer .header {
+  color: rgb(0, 150, 250);
+  font-weight: 800;
+  padding-bottom: 3px;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer a:hover {
+  color: white;
+}

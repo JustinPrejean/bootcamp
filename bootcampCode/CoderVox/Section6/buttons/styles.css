@@ -1,0 +1,39 @@
+body {
+  background: #EOEOEO;
+}
+
+.container {
+  background: #66d9e8;
+  height: 400px;
+  width: 500px;
+  border-radius: 10px;
+  margin: 100px auto;
+  padding: 50px;
+}
+
+button {
+  color: white;
+  background: #0d47a1;
+  border: none;
+  border-radius: 10px;
+  width: 400px;
+  padding: 20px;
+  margin: 25px 40px;
+  text-align: justify center;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Acme", sans-serif;
+}
+
+#b1 i {
+  color: #ff9800;
+  margin-right: 4px;
+}
+#b2 i {
+  color: #ffeb3b;
+  margin-right: 4px;
+}
+#b3 i {
+  color: #76ff03;
+  margin-right: 4px;
+}

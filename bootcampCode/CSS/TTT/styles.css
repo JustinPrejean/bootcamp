@@ -1,0 +1,30 @@
+.container {
+  width: 303px;
+  height: 303px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.horizontal {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.vertical {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.far {
+  margin: 10px;
+}

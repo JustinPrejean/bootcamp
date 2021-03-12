@@ -1,0 +1,43 @@
+.navbar ul {
+  margin-left: auto;
+}
+.navbar {
+  border: 1px solid green;
+}
+
+.navbar .navbar-brand {
+  color: rgb(94, 94, 94);
+}
+
+.navbar button {
+  margin-right: 3px;
+  color: rgb(14, 14, 14);
+  border-radius: 4px;
+  padding: 5px 13px;
+  border: 1px solid rgb(180, 180, 180);
+}
+
+.landing {
+  text-align: center;
+  background: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  color: white;
+}
+
+.landing h1 {
+  width: 800px;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0 auto;
+  text-transform: uppercase;
+  padding: 300px 0px 20px 0px;
+}
+
+.landing button {
+  border: 2px solid rgb(0, 119, 255);
+  background-color: rgb(76, 167, 76);
+  font-weight: 400;
+}

@@ -1,0 +1,23 @@
+/* #container {
+  width: 500px;
+  height: 500px;
+  background-color: grey;
+  margin: 150px auto;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+form,
+h1 {
+  padding-left: 50px;
+}
+
+input {
+  margin: 5px 0;
+}
+
+button {
+  margin-top: 5px;
+}
