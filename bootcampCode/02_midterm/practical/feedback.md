@@ -1,0 +1,1 @@
+The practical works as expected, has comments and you added in the footer link to home which seemed to be missed by quite a few people! You did an awesome job on it Justin!

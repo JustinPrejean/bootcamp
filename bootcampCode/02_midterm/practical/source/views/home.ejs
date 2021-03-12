@@ -1,0 +1,22 @@
+<%- include ("partials/header")%>
+
+<!-- Home Page -->
+<div class="jumbotron bg-white text-dark font-weight-bold">
+  <label for="userNumber">Star Wars Characters! Pick a number from 1-10:</label>
+  <form action="/results" method="GET">
+    <input
+      type="number"
+      class="form-control font-weight-bold"
+      min="1"
+      max="10"
+      placeholder="Enter your number"
+      name="userNumber"
+      autofocus
+    />
+    <input type="submit" class="btn btn-info mt-3" />
+  </form>
+</div>
+
+
+
+<%- include ("partials/footer")%>
