@@ -1,0 +1,9 @@
+<h1>Weather in San Fransisco: </h1>
+<% let {humidity, min_temp, max_temp, weather_state_name} = data.consolidated_weather[0] %>
+<% let low = min_temp * 9/5 + 32 %>
+<% let high = max_temp * 9/5 + 32 %>
+
+<h2>Forecast: <%= weather_state_name %></h2>
+<h2>Low temp: <%= low.toFixed(0) %>°F</h2>
+<h2>High temp: <%= high.toFixed(0) %>°F </h2>
+<h2>Humidity: <%= humidity %>% </h2>

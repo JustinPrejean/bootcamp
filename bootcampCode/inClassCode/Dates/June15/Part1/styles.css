@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1:hover {
+  background: black;
+  color: grey;
+}
+
+h1:active {
+  font-size: 100px;
+  background: black;
+  color: grey;
+}
+
+input:focus {
+  padding-bottom: 100px;
+  outline: 5px solid pink;
+}
+
+button:hover {
+  background-color: pink;
+  color: white;
+}
+
+button:active {
+  background: burlywood;
+  font-size: 40px;
+}

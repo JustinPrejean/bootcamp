@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- <table border="1">
+            <tr>
+                <th>Tuesday's Soups</th>
+                <th>Wednesday's Soups</th>
+            </tr>
+            <tr>
+                <td>Chicken Noodle Soup</td>
+                <td>Brocccoli Cheddar Soup</td>
+            </tr>
+            <tr>
+                <td>Creamy Tomato Soup</td>
+                <td>French Onion Soup</td>
+            </tr>
+        </table>
+        <br><br> -->
+
+    <form action="">
+      <p>Name:</p>
+      <input type="text" placeholder="Name" name="name" />
+
+      <p>Password:</p>
+      <input type="password" placeholder="Password" name="password" required />
+
+      <p>Phone</p>
+      <input
+        type="tel"
+        name="phone"
+        placeholder="Phone"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+        title="Format 555-555-5555"
+      />
+
+      <p>Email</p>
+      <input type="email" name="email" placeholder="Email" required />
+
+      <p>Do you like cheese?<input type="checkbox" /></p>
+      <br /><input type="submit" />
+    </form>
+  </body>
+</html>

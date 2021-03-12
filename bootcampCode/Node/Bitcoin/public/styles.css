@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: lightblue;
+  text-align: center;
+}
+
+.container {
+  width: 380px;
+}
+
+.btn {
+  background-color: rgba(15, 15, 83, 0.89);
+  color: rgb(236, 235, 235);
+  border-radius: 14px;
+  border: 1px solid rgb(236, 235, 235);
+  margin: 0 32%;
+}

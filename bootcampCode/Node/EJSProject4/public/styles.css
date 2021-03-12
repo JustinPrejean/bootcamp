@@ -1,0 +1,20 @@
+/* a. Grey borders
+ b. box-shadow
+ c. center cards horizontally across the page
+ d. margins as needed */
+
+* {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  border: 1px solid grey;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
+  width: 20%;
+  margin: 5px;
+  padding: 5px;
+}

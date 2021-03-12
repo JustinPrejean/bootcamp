@@ -1,0 +1,16 @@
+<%- include('partials/header.ejs', {title: "Food Finder"}) -%>
+<body>
+<%-include('partials/navbar')  %> 
+      <div class="container well">
+          <div class="home">
+        <h1>Find a food place near you!</h1>
+        <form action="/searchResults">
+            <label for="location" value=> Enter your location:</label>
+                <input type="text" name="location" id="location" placeholder="Enter your location">
+             <br>
+            <button class="btn btn-primary">Submit</button>
+        </form>          
+      </div>
+    </div>
+
+      <%-include('partials/footer.ejs')-%>

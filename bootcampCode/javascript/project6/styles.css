@@ -1,0 +1,13 @@
+body {
+  background: #4fc3f7;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 300px;
+  font-size: 100px;
+}

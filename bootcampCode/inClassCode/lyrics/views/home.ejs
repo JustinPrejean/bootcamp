@@ -1,0 +1,18 @@
+<%-include("partials/header", {title: "Lyrics R'Us"})-%>
+<%-include("partials/navbar")-%>
+
+
+<h1 class="text-center">Find the lyrics to your favorite songs!</h1>
+<div class="container well">
+  <form action="/lyricResults" method="get">
+    <label for="artist">Enter artist:</label>
+    <input type="search" name="artist" id="artist" placeholder="Enter your artist here">
+
+    <label for="title">Enter Song Title:</label>
+    <input type="search" name="title" id="title" placeholder="Enter your song here">
+
+    <button type="submit" class=" btn btn-danger">Submit</button>
+  </form>
+</div>
+
+<%-include("partials/footer")-%>
