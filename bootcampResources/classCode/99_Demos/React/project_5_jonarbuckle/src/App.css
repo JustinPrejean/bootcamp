@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+#text_container {
+  width: 75vw;
+  margin: auto;
+}
+
+img {
+  border: blue 5px solid;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+

@@ -1,0 +1,29 @@
+<%- include ('partials/header.ejs')%>
+
+
+<h2><%= data.title%>, <%= data.parent.title %></h2>
+<h3><%= time %></h3>
+
+<div class="container">
+    <% let windDirection = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'] %>
+    <% let windSymbol = ['&uarr;', '&nearr;', '&rarr;', '&searr;', '&darr;', '&swarr;', '&larr;', '&nwarr;'] %>
+    
+    <% data.consolidated_weather.forEach(newData => { %>
+        <% let {weather_state_name, weather_state_abbr, max_temp, min_temp, wind_direction_compass, wind_speed} = newData;%>
+        <% let imageLink = `https://www.metaweather.com/static/img/weather/${weather_state_abbr}.svg` %>
+        <div class="weather">
+            <img src=<%= imageLink %>  width='50' height='50' alt=""><%= weather_state_name%>
+            <p>Max: <%= Math.round((max_temp*1.8)+32) %>&#8457;</p>
+            <p>Min: <%= Math.round((min_temp*1.8)+32) %>&#8457;</p>
+            <% let compass = windSymbol[windDirection.indexOf(wind_direction_compass)] %>
+            <p>Wind: <%- compass%><%= Math.round(wind_speed) %><strong>mph</strong></p>
+        </div>
+       
+    <% }) %>
+</div>
+
+<%- include ('partials/footer.ejs')%>
+
+
+
+

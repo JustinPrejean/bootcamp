@@ -1,0 +1,13 @@
+.card {
+  border: 5px solid;
+}
+
+.card--green {
+  color: green;
+  border-color: green;
+}
+
+.card--purple {
+  color: purple;
+  border-color: purple;
+}

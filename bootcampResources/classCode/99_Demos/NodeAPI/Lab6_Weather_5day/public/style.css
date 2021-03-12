@@ -1,0 +1,47 @@
+body,
+div {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: darkblue;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center; 
+    color: white;
+    text-shadow: 2px 2px 0 black;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.weather {
+    background-color: lightblue;
+    display: inline-block;
+    width: 14%;
+    height: 100%;
+    margin: 0 1%;
+}
+
+form {
+    width: 50%;
+    margin-left: 35vw;
+}
+
+input {
+    text-align: center;
+    height: 30px;
+    width: 300px;
+}
+
+button {
+    background: lightblue;
+}

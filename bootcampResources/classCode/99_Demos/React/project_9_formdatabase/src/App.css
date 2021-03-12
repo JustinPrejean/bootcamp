@@ -1,0 +1,22 @@
+.App {
+  width: 50vw;
+  margin: 10vh auto;
+  border: lightgreen 10px solid;
+}
+
+.btn-success {
+  margin-left: 10%;
+}
+
+form label {
+  margin: 1%;
+}
+
+input::placeholder {
+  color: red;
+}
+
+label span {
+  color: grey;
+  font-size: .75em;
+}
