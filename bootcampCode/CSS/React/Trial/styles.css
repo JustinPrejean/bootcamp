@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    height: 300vh;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    background: rgb(53, 53, 53);
+    margin: 0;
+    top: 0;
+    padding-left: 30px;
+    position: fixed;
+    width: 100%;
+}
+
+li {
+    padding: 15px;
+}
+
+li:hover {
+    background: rgb(85, 85, 85)
+}
+
+a {
+    text-decoration: none;
+    color: rgb(220, 220, 220);
+    font-weight: 500;
+}

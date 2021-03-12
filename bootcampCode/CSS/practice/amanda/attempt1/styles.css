@@ -1,0 +1,132 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gloria Hallelujah', cursive;
+  overflow-x: hidden;
+}
+
+.background {
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background: url('https://images.unsplash.com/photo-1511406361295-0a1ff814c0ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+<<<<<<< HEAD
+  background-color: rgba(53, 53, 53, 0.4);
+=======
+  background-color: rgba(53, 53, 53, 0);
+>>>>>>> c42d3cc335c0d20f698226ddfcb546cbf33e1d9e
+  margin: 0;
+  padding: 0 100px 0 0;
+}
+
+.nav-link:hover:not(#logo) {
+  background-color: #b767fa;
+  transition: 0.4s;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #24ff00;
+  padding: 10px 15px;
+}
+
+.navbar img {
+  width: 100px;
+}
+
+#logo {
+  padding-top: 5px;
+
+  margin-right: auto;
+}
+
+.landing {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.welcome {
+  text-align: center;
+  width: 600px;
+}
+
+.welcome img {
+  width: 500px;
+  margin-bottom: 0;
+}
+
+.welcome button {
+  padding: 15px 30px;
+  border-radius: 80px;
+  text-transform: uppercase;
+  background-color: #b767fa;
+  color: #24ff00;
+  border: none;
+  outline: none;
+  box-shadow: 0px 6px #7743a1;
+  cursor: pointer;
+  margin: 0px 8px;
+  letter-spacing: 0.05rem;
+}
+
+.welcome button:hover {
+  background-color: #24ff00;
+  color: #b767fa;
+  box-shadow: 0px 3px #19a703;
+  top: 3px;
+  transition: 0.4s;
+}
+
+.welcome button:active {
+  box-shadow: none;
+  top: 6px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  height: 10%;
+  width: 100%;
+  align-items: center;
+<<<<<<< HEAD
+  background-color: rgba(53, 53, 53, 0.4);
+=======
+  background-color: rgba(53, 53, 53, 0);
+>>>>>>> c42d3cc335c0d20f698226ddfcb546cbf33e1d9e
+}
+
+.footer ul {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #24ff00;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #b767fa;
+}
