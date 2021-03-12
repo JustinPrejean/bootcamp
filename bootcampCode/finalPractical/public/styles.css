@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(43, 208, 183);
+}
+
+nav li {
+    padding: 10px 0;
+    margin-left: 10px;
+}
+
+nav a {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.navbar-brand {
+    font-size: 2.3rem;
+    padding: 0;
+    margin: 0 auto;
+    font-weight: 200;
+}
+
+.input-group {
+    width: 50%;
+    margin: 0 auto;
+}
+
+input[type=search]{
+    padding: 35px 0 35px 15px;
+    font-size: 1.8rem;
+}
+
+#button-addon2 {
+    padding: 0 50px;
+    font-size: 1.6rem;
+}
+
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    height: 300px;
+    width: 500px;
+    margin: 10px;
+    overflow: scroll;
+}
+
+img {
+    height: 150px;
+    width: 65px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+    
+}
